@@ -1,0 +1,12 @@
+.info-card {
+  text-align: center;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: var(--blue-crayola);
+  padding: 20px;
+}
+
+.info-card__title {
+  color: var(--blue-crayola);
+  font-size: 25px;
+}

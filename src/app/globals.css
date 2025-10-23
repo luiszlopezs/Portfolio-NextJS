@@ -1,26 +1,37 @@
+
+@import url("components/header.css");
+@import url("components/footer.css");
+@import url("components/info-card.css");
+@import url("components/nav.css");
+@import url("components/info-card.css");
+@import url("components/info-block.css");
+@import url("components/img.css");
+
 @import "tailwindcss";
 
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* CSS HEX */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --risd-blue: #1852feff;
+  --blue-crayola: #3f79ffff;
+  --cornflower-blue: #659fffff;
+  --jordy-blue: #8dc5feff;
+  --non-photo-blue: #b2edffff;
+  --background: rgba(178, 237, 255, 0.437) ;
+  --background2: #CAF2FF ;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins, sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  font-size: 20px;
 }

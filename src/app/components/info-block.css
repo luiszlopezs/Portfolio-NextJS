@@ -1,0 +1,28 @@
+.info-block {
+  text-align: center;
+  margin: 50px auto 20px auto;
+  display: grid;
+  justify-content: center;
+  width: 70%;
+  gap: 5px;
+}
+
+.info-block__title {
+  color: var(--blue-crayola);
+  font-size: 30px;
+}
+
+.info-block__paragraph {
+}
+
+.info-block--feature-horizontal {
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: stretch;
+  margin-top: 30px;
+}
+
+.info-block--feature-img {
+  display: flex;
+  gap: 10px;
+}

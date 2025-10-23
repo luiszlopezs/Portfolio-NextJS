@@ -1,0 +1,28 @@
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 10px;
+  padding: 10px;
+  border-style: solid;
+  border-color: var(--risd-blue);
+  border-radius: 100px;
+  max-width: 700px;
+  width: 60%;
+  margin: 10px auto;
+  background-color: var(--background2);
+}
+
+.nav-bar__text-container {
+  display: flex;
+  align-items: center; /*vertical */
+  justify-content: center; /* horizontal */
+  gap: 25px;
+}
+
+.nav-bar__text {
+  text-align: center;
+  text-decoration: none;
+  color: var(--risd-blue);
+}
