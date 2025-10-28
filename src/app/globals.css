@@ -1,34 +1,27 @@
 
-@import url("components/header.css");
-@import url("components/footer.css");
-@import url("components/info-card.css");
-@import url("components/nav.css");
-@import url("components/info-card.css");
-@import url("components/info-block.css");
-@import url("components/img.css");
 
-@import "tailwindcss";
+
+
 
 
 * {
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
 }
 
-/* CSS HEX */
+@import "tailwindcss";
+
 :root {
-  --risd-blue: #1852feff;
-  --blue-crayola: #3f79ffff;
-  --cornflower-blue: #659fffff;
-  --jordy-blue: #8dc5feff;
-  --non-photo-blue: #b2edffff;
-  --background: rgba(178, 237, 255, 0.437) ;
-  --background2: #CAF2FF ;
+  --risd-blue: #1852fe;
+  --blue-crayola: #3f79ff;
+  --cornflower-blue: #659fff;
+  --jordy-blue: #8dc5fe;
+  --non-photo-blue: #b2edff;
+  --background: rgba(178, 237, 255, 0.437);
+  --background2: #CAF2FF;
 }
 
+
 body {
-  font-family: Poppins, sans-serif;
   font-weight: 300;
   margin: 0;
   padding: 0;
