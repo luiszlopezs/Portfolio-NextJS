@@ -1,7 +1,6 @@
+import {age} from "./data";
+
 export default function Hero() {
-    const birthDate = new Date(2007, 9, 1); 
-    const today = new Date();
-    const age = today.getFullYear() - birthDate.getFullYear();
 
     return (
         <section className="text-center my-[50px]    flex flex-row justify-center items-center max-h-[500px] m-[40px] " id="hero">
