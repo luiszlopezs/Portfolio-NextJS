@@ -1,4 +1,4 @@
-export default function Footer() {
+export  function Footer() {
     return (
         <footer className="bg-[var(--cornflower-blue)] p-[20px] text-center flex flex-row justify-center gap-[40px]">
             <img src="./whale.png" alt="whale Logo" className="w-[50px] h-[50px]" />

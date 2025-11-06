@@ -23,6 +23,7 @@ export const projects = [
 
 export const navSections = [
   { href: "hero", label: "About Me" },
+  { href: "skills", label: "Skills" },
   { href: "projects", label: "Projects" },
   { href: "contact", label: "Contact" },
 ];
@@ -44,6 +45,13 @@ export const contactInfo = [
     src: "./instagram.svg",
   },
 ];
+
+export const skills = [
+  { name: "Java", level: "Intermediate", imgSrc: "/Java-Light.svg", alt: "JAVA", shadow: "rgba(245_130_25_/_50)", color: "rgb(245,130,25)" },
+  { name: "HTML", level: "Beginner", imgSrc: "/html.svg", alt: "HTML", shadow: "rgba(225_78_29_/_50)", color: "rgb(225,78,29)" },
+  { name: "CSS", level: "Beginner", imgSrc: "/css.svg", alt: "CSS", shadow: "rgba(2_119_189_/_50)", color: "rgb(2,119,189)" },
+  { name: "Git", level: "Beginner", imgSrc: "/git.svg", alt: "Git", shadow: "rgba(240_60_46_/_50)", color: "rgb(240,60,46)" },
+]
 
 
 export const birthDate = new Date(2007, 9, 1);
