@@ -18,7 +18,7 @@ export default function Skills() {
                     </div>
                     ))}      
             </div>
-            </div>  
+            </div>   
         </div>
     );
 }
