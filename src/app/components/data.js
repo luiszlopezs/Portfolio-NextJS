@@ -47,10 +47,10 @@ export const contactInfo = [
 ];
 
 export const skills = [
-  { name: "Java", level: "Intermediate", imgSrc: "/Java-Light.svg", alt: "JAVA", shadow: "rgba(245_130_25_/_50)", color: "rgb(245,130,25)" },
-  { name: "HTML", level: "Beginner", imgSrc: "/html.svg", alt: "HTML", shadow: "rgba(225_78_29_/_50)", color: "rgb(225,78,29)" },
-  { name: "CSS", level: "Beginner", imgSrc: "/css.svg", alt: "CSS", shadow: "rgba(2_119_189_/_50)", color: "rgb(2,119,189)" },
-  { name: "Git", level: "Beginner", imgSrc: "/git.svg", alt: "Git", shadow: "rgba(240_60_46_/_50)", color: "rgb(240,60,46)" },
+  { name: "Java", level: "Intermediate", imgSrc: "/Java-Light.svg", alt: "JAVA", shadow: "rgba(245, 130, 25, 0.5)", color: "rgb(245,130,25)" },
+  { name: "HTML", level: "Beginner", imgSrc: "/html.svg", alt: "HTML", shadow: "rgba(225, 78, 29, 0.5)", color: "rgb(225,78,29)" },
+  { name: "CSS", level: "Beginner", imgSrc: "/css.svg", alt: "CSS", shadow: "rgba(2, 119, 189, 0.5)", color: "rgb(2,119,189)" },
+  { name: "Git", level: "Beginner", imgSrc: "/git.svg", alt: "Git", shadow: "rgba(240, 60, 46, 0.5)", color: "rgb(240,60,46)" },
 ]
 
 

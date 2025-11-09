@@ -1,3 +1,5 @@
+"use client";
+
 import { skills } from "./data";
 
 export default function Skills() {
@@ -14,7 +16,16 @@ export default function Skills() {
                     <div key={index} className="flex flex-col text-center gap-[10px] items-center m-[10px]">
                         <img src={skill.imgSrc} className="w-[150]" alt={skill.alt} />
                         <span className="text-[var(--risd-blue)]">{skill.name}</span>
-                        <span className={`text-shadow-[0_0_2px_${skill.shadow}] hover:text-shadow-[0_0_5px_${skill.shadow}] text-[${skill.color}]`}>{skill.level}</span>
+                        <span 
+                            style={{
+                                color: skill.color,
+                                textShadow: `0 0 2px ${skill.shadow}`,
+                            }}
+                            onMouseEnter={(e) => e.currentTarget.style.textShadow = `0 0 12px ${skill.shadow}`}
+                            onMouseLeave={(e) => e.currentTarget.style.textShadow = `0 0 2px ${skill.shadow}`}
+                        >
+                            {skill.level}
+                        </span>
                     </div>
                     ))}      
             </div>
