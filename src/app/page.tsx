@@ -3,6 +3,8 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Separator from "./components/Separator";
 import Skills from "./components/Skills";
+import { Certificate } from "crypto";
+import Certificates from "./components/Certificates";
 
 
 export default function Home() {
@@ -11,6 +13,7 @@ export default function Home() {
     <main className="min-h-screen flex flex-col">
       <Hero />
       <Skills />
+      <Certificates />
       <Projects />
       <Contact />
       

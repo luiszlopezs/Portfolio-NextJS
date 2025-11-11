@@ -1,6 +1,7 @@
 "use client";
 
 import { skills } from "./data";
+import SkillCard from "./templates/SkillCard";
 
 export default function Skills() {
     return (
@@ -12,22 +13,16 @@ export default function Skills() {
 
             <div className="grid grid-cols-4 items-center justify-items-center  max-w-[1000px] gap-[50px] p-[20px]">
 
-                {skills.map((skill, index) => (
-                    <div key={index} className="flex flex-col text-center gap-[10px] items-center m-[10px]">
-                        <img src={skill.imgSrc} className="w-[150]" alt={skill.alt} />
-                        <span className="text-[var(--risd-blue)]">{skill.name}</span>
-                        <span 
-                            style={{
-                                color: skill.color,
-                                textShadow: `0 0 2px ${skill.shadow}`,
-                            }}
-                            onMouseEnter={(e) => e.currentTarget.style.textShadow = `0 0 12px ${skill.shadow}`}
-                            onMouseLeave={(e) => e.currentTarget.style.textShadow = `0 0 2px ${skill.shadow}`}
-                        >
-                            {skill.level}
-                        </span>
-                    </div>
-                    ))}      
+                {skills.map((skill) => (
+                    <SkillCard
+                        key={skill.name}
+                        skillName={skill.name}
+                        imgSrc={skill.imgSrc}
+                        level={skill.level}
+                        textColor={skill.color}
+                        textShadow={skill.shadow}
+                    />
+                ))}      
             </div>
             </div>   
         </div>

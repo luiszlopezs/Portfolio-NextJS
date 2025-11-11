@@ -54,6 +54,8 @@ export const skills = [
 ]
 
 
+
+
 export const birthDate = new Date(2007, 9, 1);
 export const today = new Date();
 export const age = today.getFullYear() - birthDate.getFullYear();
