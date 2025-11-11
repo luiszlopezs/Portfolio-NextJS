@@ -24,8 +24,10 @@ export const projects = [
 export const navSections = [
   { href: "hero", label: "About Me" },
   { href: "skills", label: "Skills" },
+  { href: "certificates", label: "Certificates" },
   { href: "projects", label: "Projects" },
-  { href: "contact", label: "Contact" },
+  { href: "contact", label: "Contact" }
+  
 ];
 
 export const contactInfo = [
