@@ -8,8 +8,8 @@ export default function Hero() {
             <div className="max-w-[500px] text-center sm:text-start">
                 <h2 className=" text-[28px] font-bold text-[var(--blue-crayola)]">About Me</h2>
                 <p >
-                    I'm currently studying Systems Engineering and I'm {age} years old. 
-                    I'm interested in learning frontend development, which is why I'm taking this course.
+                    I&apos;m currently studying Systems Engineering and I&apos;m {age} years old. 
+                    I&apos;m interested in learning frontend development, which is why I&apos;m taking this course.
                 </p>
             </div>
             

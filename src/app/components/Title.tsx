@@ -6,7 +6,7 @@ export function Title() {
             <h1 className={`${playwrite.className} text-[var(--risd-blue)] 
                         text-[40px] sm:text-[50px] 
                         text-center m-5 md:m-10`}>
-                ¡hello, i'm Luis!
+                ¡hello, i&apos;m Luis!
             </h1>
         </>
 
