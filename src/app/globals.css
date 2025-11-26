@@ -26,5 +26,10 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--background);
+  /*background-color: oklch(37.8% 0.077 168.94);*/
   font-size: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
