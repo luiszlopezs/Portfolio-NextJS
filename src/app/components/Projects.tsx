@@ -10,12 +10,11 @@ export default function Projects() {
                 {projects.map((project, index) => (
                     <article key={index} className="flex flex-col items-center justify-center rounded-[20px] border-[var(--blue-crayola)] border-2 p-[20px] bg-[var(--background2)]">
                         <a href={project.href} target="_blank">
-                            <Image
+                            <img
                             src={project.imageUrl}
                             alt={project.title}
-                            width={150}
-                            height={150}
-                            className=" rounded-[10px]"
+                            
+                            className=" rounded-[10px] w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] object-cover"
                         />
                         </a>
                         

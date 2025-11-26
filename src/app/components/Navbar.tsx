@@ -1,4 +1,3 @@
-"use client";
 import {navSections} from "./data";
 
 export default function Navbar() {

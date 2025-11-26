@@ -9,7 +9,7 @@ export default function Skills() {
                 My Skills
             </h2>
 
-                <div className="flex flex-wrap sm:flex-nowrap justify-around  max-w-[1000px] gap-[10px] sm:gap-[50px]  ">
+                <div className="flex flex-wrap sm:flex-nowrap justify-around  max-w-[1000px] gap-[20px] sm:gap-[50px]  ">
 
                     {skills.map((skill, index) => (
                         <div key={index} className="grid  grid-cols-1 place-items-center gap-[10px] sm:gap-[20px] items-center m-[10px] ">
