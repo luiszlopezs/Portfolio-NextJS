@@ -74,6 +74,11 @@ export const certificates = [
     href: "https://thoth.acmud.org/certificates/cc5e9408-ca33-474c-8686-f9f1b12ddd11",
     src: "./certificates/certificadoACMpython.jpeg" ,
     alt: "Python de 0 a 100 ACMUD Certificate", },
+    {
+    title: "Web Development Frontend ACMUD" ,
+    href: "https://thoth.acmud.org/certificates/04b29ba2-0162-4e72-8199-263d820f6e28",
+    src: "./certificates/certificadoACMWebDevFrontend.png" ,
+    alt: "Web Development Frontend ACMUD Certificate", },
 ];
 
 

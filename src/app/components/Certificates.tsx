@@ -10,7 +10,7 @@ export default function Certificates() {
             {certificates.map((certificate, index) => (
                 <div key={index} className=" flex-1 bg-[white]/60 p-[30px] rounded-[20px]  shadow-[0px_20px_25px_rgba(24_82_254_/_0.5)] hover:scale-[1.05]  duration-300">
                     <h2
-                        className="font-medium text-[var(--blue-crayola)] text-center mb-[20px]">
+                        className="font-medium text-[var(--risd-blue)] text-center mb-[20px]">
                         {certificate.title}
                     </h2>
                     <a href={certificate.href} target="_blank" >

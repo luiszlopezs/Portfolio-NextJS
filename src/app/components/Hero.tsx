@@ -7,9 +7,9 @@ export default function Hero() {
             <img className="lg:w-[350px]  w-[200px]  hidden md:block " src="/diamond(1).png" alt="Diamond" />
             <div className="max-w-[500px] text-center sm:text-start">
                 <h2 className=" text-[28px] font-bold text-[var(--blue-crayola)]">About Me</h2>
-                <p >
-                    I&apos;m currently studying Systems Engineering and I&apos;m {age} years old. 
-                    I&apos;m interested in learning frontend development, which is why I&apos;m taking this course.
+                <p className="text-[18px]" >
+                    I am a builder in progress, driven by learning, discipline, and long-term vision. I enjoy creating software projects from the ground up, with a strong focus on clean architecture and continuous improvement.
+                    <br></br>While I am still developing my experience and leadership at scale, my greatest strength is my commitment to growth, adaptability, and becoming a leader who creates value through action and consistency.
                 </p>
             </div>
             
